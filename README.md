@@ -6,6 +6,7 @@
 This is example **Single page application** using [webpack boilerplate](https://github.com/vuejs-templates/webpack) as starter point. and [jsonplaceholder](jsonplaceholder.typicode.com) as API.
 
 This example using:
+
 	- [Vue-router](https://github.com/vuejs/vue-router)
 	- [Vue-resources](https://github.com/vuejs/vue-resource)
 	- [Sass](http://sass-lang.org)
