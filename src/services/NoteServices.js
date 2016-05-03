@@ -4,7 +4,7 @@ var config = require('../../config')
 
 const API_URL = process.env.NODE_ENV === 'production'
   ? 'http://jsonplaceholder.typicode.com/'
-  : 'http://localhost:'+ config.dev.port +'/api/'
+  : 'http://localhost:' + config.dev.port + '/api/'
 
 const store = {}
 

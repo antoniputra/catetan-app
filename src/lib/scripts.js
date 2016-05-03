@@ -1,5 +1,5 @@
-module.exports = (function() {
-	$("body").tooltip({
-		selector: '[data-toggle="tooltip"]'
-	});
+module.exports = (function () {
+  $('body').tooltip({
+    selector: '[data-toggle="tooltip"]'
+  })
 })

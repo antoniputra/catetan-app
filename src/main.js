@@ -6,30 +6,28 @@ import Home from './pages/Home'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
 import NProgress from 'nprogress'
-import {str_limit} from './filters'
+import { str_limit } from './filters'
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
 // Vue.http.headers.common['X-CSRF-TOKEN'] = document.querySelector('#token').getAttribute('value')
 Vue.http.interceptors.push({
-
-    request: function (request) {
-        if (['post', 'put', 'patch', 'delete'].indexOf(request.method) !== -1) {
-        	NProgress.start()
-        }
-
-        return request;
-    },
-
-    response: function (response) {
-        
-        if (response.ok) {
-        	NProgress.done()
-        }
-
-        return response;
+  request: function (request) {
+    if (['post', 'put', 'patch', 'delete'].indexOf(request.method) !== -1) {
+      NProgress.start()
     }
+
+    return request
+  },
+
+  response: function (response) {
+    if (response.ok) {
+      NProgress.done()
+    }
+
+    return response
+  }
 
 })
 
