@@ -8,7 +8,7 @@ var pkg = require('../package.json')
 var banner = [
   "Catetan-app | v" + pkg.version,
   "(c) 2016 by " + pkg.author,
-  "Released under the" + pkg.license + "License"
+  "Released under the " + pkg.license + " License"
 ].join('\n')
 
 module.exports = {
