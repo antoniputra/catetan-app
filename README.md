@@ -7,12 +7,12 @@ This is example **Single page application** using [webpack boilerplate](https://
 
 This example using:
 
-	- [Vue-router](https://github.com/vuejs/vue-router)
-	- [Vue-resources](https://github.com/vuejs/vue-resource)
-	- [Sass](http://sass-lang.org)
-	- [Bootstrap](http://getbootstrap.com)
-	- [NProgress](https://github.com/rstacruz/nprogress)
-	- [Jquery Autosize](https://github.com/jackmoore/autosize)
+- [Vue-router](https://github.com/vuejs/vue-router)
+- [Vue-resources](https://github.com/vuejs/vue-resource)
+- [Sass](http://sass-lang.org)
+- [Bootstrap](http://getbootstrap.com)
+- [NProgress](https://github.com/rstacruz/nprogress)
+- [Jquery Autosize](https://github.com/jackmoore/autosize)
 
 > **NOTE:** Because jsonplaceholder as API, all of the changes will not be really stored on the server instead it will be faked as if.
 
