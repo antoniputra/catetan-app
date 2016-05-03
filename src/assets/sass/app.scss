@@ -1,0 +1,57 @@
+@import 'bootstrap-custom';
+@import 'bootstrap';
+@import '~nprogress/nprogress.css';
+@import '~sweetalert/dist/sweetalert.css';
+@import 'form-note';
+
+body {
+	background: #f0f0f0;
+}
+
+.grid {
+	// text-align: center; // for make box have nice center position
+
+	.thumbnail {
+		float: left;
+		display: inline-block;
+		margin: 0px 14px 30px;
+		width: 256px;
+		// max-height: 375px;
+		height: 350px;
+		padding: 0px;
+		box-shadow: 0px 0px 4px #d0d0d0;
+
+		.image {
+			display: block;
+			overflow: hidden;
+			height: 160px;
+			img {
+				width: 100%;
+			}
+		}
+
+		.content {
+			padding: 9px;
+    		color: #3f3f3f;
+
+			.title {
+				margin-top: 10px;
+				font-weight: bold;
+				font-size: 22px;
+			}
+
+			.action {
+				margin-top: 20px;
+				// display: none;
+				visibility: hidden;
+			}
+		}
+
+		&:hover {
+			.action {
+				// display: block;
+				visibility: visible;
+			}
+		}
+	}
+}
